@@ -1,9 +1,3 @@
-from collections import deque
-import collections
-from numpy import stack
-a = [3,4,4,3,1]
-b= a
-a.reverse()
-
-print(a)
-
+image = [[1,1,1],[1,1,0],[1,0,1]]
+if image[2][3] == None:
+    print(1)
