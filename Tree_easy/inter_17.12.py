@@ -6,7 +6,7 @@ class Solution:
         def inorder(node):
             if not node:
                 return
-            inorder(node.left)
+            inorder(node.left)2
             nonlocal cur
             node.left = None
             cur.right = node
